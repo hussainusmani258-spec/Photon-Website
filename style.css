@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+    box-shadow: 4px 3px 2px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.logo{
+    font-size: 33px;
+   
+}
+.awesom{
+    color: gray;
+    font-size: 20px;
+}   
+.links ul{
+    list-style: none;
+    display: flex;
+   gap: 40px;
+}
+.btn{
+    display: flex;
+   gap: 30px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+.icon{
+    padding-top:8px;
+}
+.service-parent {
+    position: relative;
+    
+    padding-bottom: 10px;
+}
+
+
+.sublink {
+    display: none;             
+    position: absolute;        
+  
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    padding: 10px 0;
+    min-width: 160px;
+    z-index: 100;
+}
+
+.sublink ul {
+    display: flex;
+    flex-direction: column;   
+    gap: 0;                   
+}
+
+.sublink ul li a {
+    display: block;
+    padding: 8px 16px;
+    
+}
+
+.sublink ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+
+.service-parent:hover .sublink {
+    display: block;
+}
+.icon{
+    display: flex
+;
+gap: 20px;
+}
+.main {
+    padding: 30px 60px;
+    background-color: #111111;
+    color: #ffffff;
+    min-height: 60vh;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative; 
+    width: 320px;
+    height: 500px;      
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.card-content {
+    position: absolute;
+    bottom: 0;           
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+  
+}
+
+.card-content h3 {
+    font-size: 20px;
+    margin-bottom: 200px;
+    margin-left: 20px;
+    font-size: 29px;
+}
